@@ -1,0 +1,19 @@
+.img-user {
+    width: 100px;
+    min-width: 50px;
+    border-radius: 100%;
+}
+
+aside {
+    background-color: linear-gradient(to bottom, rgba(31, 121, 250, 1) 0%,rgba(85, 142, 243, 0.5) 100%);
+}
+
+#btn-account {
+    height: 50px;
+    background-image: url('../../public/img/icon-sign-off.svg');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    background-color: transparent;
+    border: none;
+}
