@@ -11,7 +11,7 @@
 <body data-bs-theme="light" class="container-fluid p-0">
     <div class="container-xxl" style="height: 100vh;">
         <main class="row flex-reverse" style=" height: inherit;">
-            <aside class="col-2 p-0 d-flex flex-column justify-content-between" style="background: linear-gradient(180deg, #0011ff 20%, #7193f9 100%);">
+            <aside class="col-2 p-0 d-flex flex-column justify-content-between">
                 <section id="section-user" class="d-flex flex-column ps-1 pe-1 pt-3 pb-3 mt-2">
                     <figure class="w-100 d-flex justify-content-center">
                         <img class="img-user" src="../../public/img/icon-user.png" alt="user-profile">
@@ -21,19 +21,19 @@
                 </section>
                 <ul class="nav nav-pills flex-column p-2"> 
                     <li class="nav-item mt-2">
-                        <a class="nav-link" href="about.html">
+                        <a class="nav-link" href="about.php">
                             <img class="bi me-2" style="filter: invert(1)" width="25px" height="25px" src="../../public/img/icon-about.svg" alt="home">
                             <span class="fs-6 fw-medium">Sobre mí</span>
                         </a> 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="experiencia.html">
+                        <a class="nav-link text-white" href="experiencia.php">
                             <img class="bi me-2" width="25px" style="filter: invert(1)" height="25px" src="../../public/img/icon-experiencia.svg" alt="experiencia">
                             <span class="fs-6 fw-medium">Experiencia</span> 
                         </a> 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="formacion.html">
+                        <a class="nav-link text-white" href="formacion.php">
                             <img class="bi me-2" style="filter: invert(1)" width="25px" height="25px" src="../../public/img/icon-education.svg" alt="formacion">
                             <span class="fs-6 fw-medium">Formación</span>
                         </a> 
