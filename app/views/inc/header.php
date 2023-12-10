@@ -20,20 +20,21 @@
                     <h4 class="p-1 fs-6">Desarrollador Web</h4>
                 </section>
                 <ul class="nav nav-pills flex-column p-2"> 
-                    <li class="nav-item mt-2">
-                        <a class="nav-link" href="about.php">
+                    <li class="nav-item mt-2"> 
+                    <!-- href="./pages/about.php" -->
+                        <a class="nav-link" href="/generador-cv/views/about">
                             <img class="bi me-2" style="filter: invert(1)" width="25px" height="25px" src="../public/img/icon-about.svg" alt="home">
                             <span class="fs-6 fw-medium">Sobre mí</span>
                         </a> 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="experiencia.php">
+                        <a class="nav-link" href="/generador-cv/views/experiencia">
                             <img class="bi me-2" width="25px" style="filter: invert(1)" height="25px" src="../public/img/icon-experiencia.svg" alt="experiencia">
                             <span class="fs-6 fw-medium">Experiencia</span> 
                         </a> 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="formacion.php">
+                        <a class="nav-link" href="/generador-cv/views/formacion">
                             <img class="bi me-2" style="filter: invert(1)" width="25px" height="25px" src="../public/img/icon-education.svg" alt="formacion">
                             <span class="fs-6 fw-medium">Formación</span>
                         </a> 
