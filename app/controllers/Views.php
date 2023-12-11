@@ -6,7 +6,6 @@ class Views extends Control {
             "title" => "Inicio"
         ];
         $this->load_view('inicio', $datos);
-        $ruta_amigable = get_ruta_amigable('inicio');
     }
 
     public function about() {
