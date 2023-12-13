@@ -1,7 +1,8 @@
 <?php
+    $page = 'about';
     require_once APP . '../views/inc/header.php';
 ?>
-            <div class="h-100 col-10 overflow-auto">
+            <div id="contenido" class="h-100 col-10 overflow-auto">
                 <header class="col-12 d-flex justify-content-center mt-3 mb-3">
                     <h2 class="p-1">Sobre tí</h2>
                 </header>
